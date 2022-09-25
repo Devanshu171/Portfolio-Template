@@ -1,0 +1,100 @@
+#sec2 .trans ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+  position: relative;
+}
+#sec2 {
+  margin-bottom: 0;
+}
+.card {
+  text-align: center;
+  height: 80%;
+  width: 100%;
+}
+
+.card img {
+  margin: auto;
+  object-fit: cover;
+  width: 6em;
+  height: 6rem;
+  margin: 30px auto 30px auto;
+}
+.card-body {
+  width: 75%;
+  margin: auto;
+}
+.card-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: darkgrey;
+}
+.card2 {
+  right: 39rem;
+  transition: right 1s;
+  animation-name: card2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.card3 {
+  left: 9rem;
+  top: -15rem;
+  transition: left 1s;
+  animation-name: card3;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.card1 {
+  left: 9rem;
+  transition: left 1s;
+  animation-name: card1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+/* @keyframes card3 {
+  100% {
+    left: -11rem;
+  }
+}
+@keyframes card2 {
+  100% {
+    right: 30rem;
+  }
+}
+@keyframes card1 {
+  100% {
+    left: -8rem;
+  } */
+/* } */
+#sec2:hover .card1 {
+  left: -8rem;
+}
+#sec2:hover .card3 {
+  left: -11rem;
+}
+#sec2:hover .card2 {
+  right: 30rem;
+}
+
+@media screen and (max-width: 550px) {
+  #sec2 .trans ul li {
+    position: static;
+    justify-content: start;
+    width: 80%;
+    margin: auto;
+  }
+  #seec2 {
+    height: 100%;
+  }
+  .card-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: darkgrey;
+  }
+  .btn-2 {
+    font-size: 1.4rem;
+  }
+}

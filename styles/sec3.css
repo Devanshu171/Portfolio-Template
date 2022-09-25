@@ -1,0 +1,37 @@
+#sec3 ul {
+  /* width: 100%; */
+  margin: auto;
+  display: flex;
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+#sec3 {
+  margin-bottom: 20rem;
+}
+#sec3 ul li {
+  margin: 0 2rem 0 2rem;
+}
+.numbers {
+  font-size: 1.55rem;
+  font-weight: 700;
+  text-align: center;
+
+  padding: 2.2rem 0.1rem;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+  background-color: white;
+  color: rgb(255, 183, 0);
+}
+
+.atribu h4 {
+  text-align: center;
+}
+@media screen and (max-width: 550px) {
+  #sec3 {
+    margin-bottom: 6rem;
+  }
+  #sec3 ul {
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+}

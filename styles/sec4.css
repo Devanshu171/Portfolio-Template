@@ -1,0 +1,69 @@
+#sec4 {
+  margin-bottom: 7rem;
+  text-align: center;
+}
+
+#blue {
+  position: relative;
+  left: 11rem;
+  top: -1rem;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(65, 74, 233);
+}
+#yellow {
+  position: relative;
+  top: -10rem;
+  left: 11rem;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(255, 183, 0);
+}
+
+#white {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 50%;
+}
+#white img {
+  object-fit: cover;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgb(255, 254, 254);
+  border: 7px solid rgb(205, 203, 203);
+  width: 120px;
+  height: 120px;
+}
+#amazon {
+  top: 9rem;
+  left: 9rem;
+}
+#upwork {
+  bottom: 3rem;
+  left: 1rem;
+}
+#shopify {
+  right: 3rem;
+  /* bottom: 2rem; */
+  top: 1rem;
+  background-color: #fff;
+}
+#fiver {
+  left: 6rem;
+  top: 9rem;
+}
+#facebook {
+  top: 12rem;
+  left: 1rem;
+}
+@media screen and (max-width: 550px) {
+  #sec4 .sec_d2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+}

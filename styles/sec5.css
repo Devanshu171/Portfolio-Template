@@ -1,0 +1,51 @@
+#sec5 div {
+  margin-bottom: 10rem;
+}
+#sec5 {
+  text-align: center;
+}
+#sec5 ul {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#sec5 ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.2rem;
+  width: 18rem;
+  height: 25rem;
+  position: relative;
+  border-radius: 0.7rem;
+  bottom: 0;
+  transition: bottom 0.3s;
+  background-color: rgb(28, 28, 28);
+  border-top: 2px solid rgba(211, 211, 211, 0.3);
+  border-left: 2px solid rgba(211, 211, 211, 0.3);
+}
+#sec5 ul li:hover {
+  bottom: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  #sec5 {
+    text-align: center;
+    justify-content: space-around;
+  }
+  #sec5 ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  #sec5 ul li {
+    width: 70%;
+
+    margin-bottom: 2rem;
+  }
+  #sec5 p {
+    font-size: 1.2rem;
+  }
+}
